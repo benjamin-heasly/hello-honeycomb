@@ -46,7 +46,7 @@
     "build": "react-scripts build",
     "package:windows": "react-scripts build && electron-forge make --arch x64 --targets @electron-forge/maker-squirrel",
     "package:linux": "react-scripts build && electron-forge make --arch x64 --targets @electron-forge/maker-deb",
-    "package:mac": "react-scripts build && electron-forge make --arch x64 --targets @electron-forge/maker-dmg",
+    "package:mac": "react-scripts build && electron-forge make --arch x64 --targets @electron-forge/maker-dmg && ls out/make/ && ls out/make/dmg/ && ls out/make/dmg/darwin/ && ls out/make/dmg/darwin/x64",
     "rebuild": "electron-rebuild",
     "eject": "react-scripts eject",
     "electron": "electron .",
@@ -95,7 +95,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "iconUrl": "./assets/icons/win/icon.ico"
+            "iconUrl": "https://raw.githubusercontent.com/brown-ccv/honeycomb/main/assets/icons/win/icon.ico"
           }
         }
       ]
