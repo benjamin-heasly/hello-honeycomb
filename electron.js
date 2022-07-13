@@ -237,7 +237,7 @@ ipc.on('data', (event, args) => {
     stream.write(JSON.stringify({...args, git}))
 
     // Copy provocation images to participant's data folder
-    if (args.trial_type === 'image_keyboard_response') images.push(args.stimulus.slice(7))
+    if (args.trial_type === "image-keyboard-response") images.push(args.stimulus.slice(7))
   }
 })
 
