@@ -44,7 +44,7 @@
     "test": "react-scripts test",
     "prebuild": "electron-rebuild",
     "build": "react-scripts build",
-    "package:windows": "react-scripts build && electron-forge make --arch x64 --targets @electron-forge/maker-squirrel && ls out/make",
+    "package:windows": "react-scripts build && electron-forge make --arch x64 --targets @electron-forge/maker-squirrel && ls out/make/squirrel.windows/x64/",
     "package:linux": "react-scripts build && electron-forge make --arch x64 --targets @electron-forge/maker-deb",
     "package:mac": "react-scripts build && electron-forge make --arch x64 --targets @electron-forge/maker-dmg",
     "rebuild": "electron-rebuild",
