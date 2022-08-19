@@ -17,4 +17,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_HELLO_HONEYCOMB }}'
           channelId: live
-          projectId: hello-honeycomb
+          projectId: are-project-6a72d
