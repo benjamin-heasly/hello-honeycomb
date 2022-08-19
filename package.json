@@ -121,6 +121,7 @@
     "dotenv": "^8.2.0",
     "dotenv-cli": "^4.0.0",
     "firebase-tools": "^11.0.1",
+    "firebase-admin": "^11.0.1",
     "require-context.macro": "^1.1.1",
     "@electron-forge/cli": "^6.0.0-beta.64",
     "@electron-forge/maker-deb": "^6.0.0-beta.64",
