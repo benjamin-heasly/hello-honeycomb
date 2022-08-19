@@ -35,6 +35,12 @@ function buildTimeline(jsPsych) {
   };
   timeline.push(blue_trial);
 
+  var are_trial = {
+    type: jsPsychImageKeyboardResponse,
+    stimulus: images['orange.png'],
+  };
+  timeline.push(are_trial);
+
   return timeline;
 }
 
